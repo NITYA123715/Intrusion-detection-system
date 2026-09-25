@@ -1,0 +1,6 @@
+{
+  "name": "SafeNet - AI Network Intrusion Detection System (IDS)",
+  "description": "Production-grade Network Intrusion Detection System (IDS) with real-time packet visualization, enhanced multi-model ML pipeline, batch flow analysis, and security analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

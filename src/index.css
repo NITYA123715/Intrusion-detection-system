@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    --color-dark-black: #02040a;
+    --color-deep-navy: #070d1e;
+    --color-navy-card: #0a1329;
+    --color-navy-border: #172a54;
+    --color-navy-hover: #132347;
+    --color-navy-accent: #2563eb;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #02040a;
+    background-image: 
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(30, 58, 138, 0.25), transparent 70%),
+      radial-gradient(ellipse 60% 40% at 100% 100%, rgba(15, 23, 42, 0.4), transparent 60%);
+    color: #e2e8f0;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom dark black & navy scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #172554;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1e3a8a;
+}
+
